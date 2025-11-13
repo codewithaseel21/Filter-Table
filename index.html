@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Filter Table</title>
+
+    <!-- ------------Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar Start ------------------>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold text-warning" href="#">🚗 AutoFilter Table</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex align-items-center gap-3 ms-auto" role="search">
+                    <input class="form-control" id="serchingVal" type="search" placeholder="Search car name..."
+                        aria-label="Search" />
+
+                    <select id="selectCategory" class="form-select">
+                        <option value="">All Engine Types</option>
+                        <option value="Petrol Car">Petrol Car</option>
+                        <option value="Diesel Car">Diesel Car</option>
+                        <option value="Hybrid Car">Hybrid Car</option>
+                        <option value="Electric Car">Electric Car</option>
+                        <option value="CNG Car">CNG Car</option>
+                    </select>
+
+                    <button class="btn btn-outline-warning" type="button" id="resetBtn">Reset</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-------------------- Navbar End --------->
+
+    <!-------------- Cards Section Start -->
+    <section class="container py-5">
+        <div class="row g-4" id="show-cars-card"></div>
+    </section>
+    <!-------------- Cards Section End--- -->
+
+    <!-- Boootstrap JS------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+body {
+    background: #f8f9fa;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    padding: 0.8rem 1rem;
+}
+
+.card {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background: linear-gradient(45deg, #ffc107, #ff9800);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: none;
+}
+
+.card-body h5 {
+    color: #212529;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border: none;
+    color: #212529;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ffb300;
+    color: white;
+}
