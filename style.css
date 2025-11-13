@@ -42,3 +42,39 @@ body {
     background-color: #ffb300;
     color: white;
 }
+
+
+/* ---------- FOOTER SECTION ---------- */
+.footer {
+  background-color: #111;           
+  color: #fff;                       
+  text-align: center;               
+  padding: 25px 10px;                
+  margin-top: 50px;                  
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.footer-content h3 {
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#endheading2 {
+  font-weight: 500;
+  font-size: 15px;
+  color: #00bcd4;                   /* Light blue ..... */
+}
+
+#endheading2 span {
+  color: #4caf50;                   /* Green developer name....... */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer-content h3:hover span {
+  color: #00e676;                   /* Green glow effect on hover..... */
+  transition: color 0.3s ease-in-out;
+}
